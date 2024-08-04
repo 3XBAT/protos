@@ -4,7 +4,7 @@
 // - protoc             v3.21.11
 // source: auth.proto
 
-package _go
+package authv1
 
 import (
 	context "context"
