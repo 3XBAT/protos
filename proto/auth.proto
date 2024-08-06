@@ -6,7 +6,7 @@ option go_package = "hvatov.auth.v1;authv1";
 
 service Auth {
   rpc Register(RegisterRequest) returns (RegisterResponse);
-  rpc Login(LoginResponse) returns (LoginRequest);
+  rpc Login(LoginRequest) returns (LoginResponse);
 }
 
 message RegisterRequest {
